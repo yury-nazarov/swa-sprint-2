@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-12-28T20:20:40.617Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.4 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="E4SF5WFbylu8Nh2VfKxn" version="24.6.4" type="device" pages="6">
+<mxfile host="Electron" modified="2024-12-28T20:29:32.870Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.4 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="rBOngk_r6uPqvw_RidFt" version="24.6.4" type="device" pages="6">
   <diagram name="Page-1" id="-H_mtQnk-PTXWXPvYvuk">
     <mxGraphModel dx="1306" dy="854" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -16,8 +16,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="WjA1ke1FbpNiC4AvZH2h" name="1. shard">
-    <mxGraphModel dx="2941" dy="1539" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="WjA1ke1FbpNiC4AvZH2h" name="2. shard">
+    <mxGraphModel dx="2506" dy="1254" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -99,18 +99,18 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="R7jYpUiAPNPqQP1vUAyU" name="2. replic">
-    <mxGraphModel dx="3233" dy="1118" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="R7jYpUiAPNPqQP1vUAyU" name="3. replic">
+    <mxGraphModel dx="2906" dy="854" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="VpQF0DiNYlTRFRzbmxKy-1" value="App" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="VpQF0DiNYlTRFRzbmxKy-1" value="App" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-1244" y="19" width="893" height="561" as="geometry" />
         </mxCell>
-        <mxCell id="8-7wIWLWzi_AQG_E91tt-24" value="Mongo Cluster" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="8-7wIWLWzi_AQG_E91tt-24" value="Mongo Cluster" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-957" y="101" width="587" height="443" as="geometry" />
         </mxCell>
-        <mxCell id="VpQF0DiNYlTRFRzbmxKy-3" value="replicaSet: config_server" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+        <mxCell id="VpQF0DiNYlTRFRzbmxKy-3" value="replicaSet: config_server" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;align=left;" parent="1" vertex="1">
           <mxGeometry x="-949" y="141" width="147" height="153" as="geometry" />
         </mxCell>
         <mxCell id="exOJL3dkQ3WeuIaPJA_b-1" value="&lt;ol start=&quot;1&quot; style=&quot;box-sizing: inherit; margin-top: var(--size-300, var(--base-unit, calc(1rem * var(--base-ratio, 1)))); padding: 0 0 0 var(--size-700, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 2)); white-space: pre-line; list-style: none; counter-reset: ordered-list1 0; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;li style=&quot;box-sizing: inherit; position: relative; margin: 0 0 var(--size-100, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 0.5));&quot;&gt;Подготовьте второй вариант схемы. Изобразите, как реализуете репликацию MongoDB для повышения отказоустойчивости. Чтобы это сделать, скопируйте первый вариант схемы и доработайте его таким образом, чтобы для каждого шарда была настроена репликация. Каждый шард должен иметь по три реплики.&lt;/li&gt;&lt;/ol&gt;&lt;br class=&quot;Apple-interchange-newline&quot;&gt;" style="text;whiteSpace=wrap;html=1;fillColor=none;labelBackgroundColor=none;" parent="1" vertex="1">
@@ -127,31 +127,31 @@
         <mxCell id="bGB1keRx3TaHEeKb3eDB-1" value="&lt;ol start=&quot;1&quot; style=&quot;forced-color-adjust: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-line; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-sizing: inherit; margin: var(--size-400, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 1.25)) 0 0 var(--size-300, var(--base-unit, calc(1rem * var(--base-ratio, 1)))); padding: 0 0 0 var(--size-700, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 2)); list-style: none; counter-reset: ordered-list1 0; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;&lt;h1 style=&quot;margin: var(--size-900, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 3)) 0 0; box-sizing: inherit; white-space-collapse: collapse;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Задание 1. Планирование&lt;/font&gt;&lt;/h1&gt;&lt;/ol&gt;" style="text;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" parent="1" vertex="1">
           <mxGeometry x="236" y="23" width="597" height="108" as="geometry" />
         </mxCell>
-        <mxCell id="8-7wIWLWzi_AQG_E91tt-25" value="replicaSet: rs2" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+        <mxCell id="8-7wIWLWzi_AQG_E91tt-25" value="replicaSet: rs2" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;align=left;" parent="1" vertex="1">
           <mxGeometry x="-758.5" y="360" width="368.5" height="153" as="geometry" />
         </mxCell>
-        <mxCell id="8-7wIWLWzi_AQG_E91tt-26" value="replicaSet: rs1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+        <mxCell id="8-7wIWLWzi_AQG_E91tt-26" value="replicaSet: rs1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;align=left;" parent="1" vertex="1">
           <mxGeometry x="-759.5" y="194" width="368.5" height="153" as="geometry" />
         </mxCell>
-        <mxCell id="8-7wIWLWzi_AQG_E91tt-27" value="mng_router1&lt;div&gt;:27017&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="8-7wIWLWzi_AQG_E91tt-27" value="mng_router1&lt;div&gt;:27017&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="-921" y="317" width="85" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8-7wIWLWzi_AQG_E91tt-28" value="pymongo-api&lt;div&gt;:8080&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8-7wIWLWzi_AQG_E91tt-28" value="pymongo-api&lt;div&gt;:8080&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1207" y="327" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8-7wIWLWzi_AQG_E91tt-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8-7wIWLWzi_AQG_E91tt-28" target="8-7wIWLWzi_AQG_E91tt-27">
+        <mxCell id="8-7wIWLWzi_AQG_E91tt-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="8-7wIWLWzi_AQG_E91tt-28" target="8-7wIWLWzi_AQG_E91tt-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8-7wIWLWzi_AQG_E91tt-30" value="mng_config1&lt;div&gt;:27018&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="8-7wIWLWzi_AQG_E91tt-30" value="mng_config1&lt;div&gt;:27018&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="-921" y="201" width="85" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8-7wIWLWzi_AQG_E91tt-31" value="mng-rs2-1&lt;div&gt;:27021&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="8-7wIWLWzi_AQG_E91tt-31" value="mng-rs2-1&lt;div&gt;:27021&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="-742" y="393" width="85" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8-7wIWLWzi_AQG_E91tt-32" value="mng_rs1_1&lt;div&gt;:27011&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="8-7wIWLWzi_AQG_E91tt-32" value="mng_rs1_1&lt;div&gt;:27011&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="-742" y="254" width="85" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8-7wIWLWzi_AQG_E91tt-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8-7wIWLWzi_AQG_E91tt-27" target="8-7wIWLWzi_AQG_E91tt-32">
+        <mxCell id="8-7wIWLWzi_AQG_E91tt-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="8-7wIWLWzi_AQG_E91tt-27" target="8-7wIWLWzi_AQG_E91tt-32" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-789" y="357" />
@@ -159,47 +159,47 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8-7wIWLWzi_AQG_E91tt-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8-7wIWLWzi_AQG_E91tt-27" target="8-7wIWLWzi_AQG_E91tt-31">
+        <mxCell id="8-7wIWLWzi_AQG_E91tt-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="8-7wIWLWzi_AQG_E91tt-27" target="8-7wIWLWzi_AQG_E91tt-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8-7wIWLWzi_AQG_E91tt-36" value="&lt;div&gt;mng_rs1_2 :27012&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="8-7wIWLWzi_AQG_E91tt-36" value="&lt;div&gt;mng_rs1_2 :27012&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="-627" y="254" width="85" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8-7wIWLWzi_AQG_E91tt-37" value="mng-rs2-2&lt;div&gt;:27022&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="8-7wIWLWzi_AQG_E91tt-37" value="mng-rs2-2&lt;div&gt;:27022&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="-627" y="393" width="85" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8-7wIWLWzi_AQG_E91tt-42" value="mbr_id: 11" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="8-7wIWLWzi_AQG_E91tt-42" value="mbr_id: 11" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-733" y="254" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8-7wIWLWzi_AQG_E91tt-43" value="mbr_id: 12" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="8-7wIWLWzi_AQG_E91tt-43" value="mbr_id: 12" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-614.5" y="254" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8-7wIWLWzi_AQG_E91tt-44" value="m_id: 21" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="8-7wIWLWzi_AQG_E91tt-44" value="m_id: 21" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-730" y="393" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8-7wIWLWzi_AQG_E91tt-45" value="m_id: 22" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="8-7wIWLWzi_AQG_E91tt-45" value="m_id: 22" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-611.5" y="393" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OTGKR1UvBmkL8IpGo4kE-1" value="&lt;div&gt;mng_rs1_3 :27013&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="OTGKR1UvBmkL8IpGo4kE-1" value="&lt;div&gt;mng_rs1_3 :27013&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="-510" y="254" width="85" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OTGKR1UvBmkL8IpGo4kE-2" value="mbr_id: 13" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="OTGKR1UvBmkL8IpGo4kE-2" value="mbr_id: 13" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-497.5" y="254" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OTGKR1UvBmkL8IpGo4kE-3" value="mng-rs2-3&lt;div&gt;:27023&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="OTGKR1UvBmkL8IpGo4kE-3" value="mng-rs2-3&lt;div&gt;:27023&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="-510" y="393" width="85" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OTGKR1UvBmkL8IpGo4kE-4" value="m_id: 23" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="OTGKR1UvBmkL8IpGo4kE-4" value="m_id: 23" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-494.5" y="393" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OTGKR1UvBmkL8IpGo4kE-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8-7wIWLWzi_AQG_E91tt-27" target="8-7wIWLWzi_AQG_E91tt-30">
+        <mxCell id="OTGKR1UvBmkL8IpGo4kE-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="8-7wIWLWzi_AQG_E91tt-27" target="8-7wIWLWzi_AQG_E91tt-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="lZEsdoadPFG5h3QKkB_g" name="3. cache">
-    <mxGraphModel dx="1136" dy="777" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="lZEsdoadPFG5h3QKkB_g" name="4. cache">
+    <mxGraphModel dx="2506" dy="854" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -217,26 +217,117 @@
         <mxCell id="eKb0LckIBYV6dTdou7r2-1" value="&lt;ol start=&quot;1&quot; style=&quot;forced-color-adjust: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-line; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-sizing: inherit; margin: var(--size-400, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 1.25)) 0 0 var(--size-300, var(--base-unit, calc(1rem * var(--base-ratio, 1)))); padding: 0 0 0 var(--size-700, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 2)); list-style: none; counter-reset: ordered-list1 0; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;&lt;h1 style=&quot;margin: var(--size-900, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 3)) 0 0; box-sizing: inherit; white-space-collapse: collapse;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Задание 1. Планирование&lt;/font&gt;&lt;/h1&gt;&lt;/ol&gt;" style="text;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" parent="1" vertex="1">
           <mxGeometry x="315" y="103" width="597" height="108" as="geometry" />
         </mxCell>
+        <mxCell id="1KceeCy20sGnmuJnoBR1-1" value="App" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-822" y="276" width="893" height="912" as="geometry" />
+        </mxCell>
+        <mxCell id="1KceeCy20sGnmuJnoBR1-2" value="Mongo Cluster" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-535" y="358" width="587" height="443" as="geometry" />
+        </mxCell>
+        <mxCell id="1KceeCy20sGnmuJnoBR1-3" value="replicaSet: config_server" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-527" y="398" width="147" height="153" as="geometry" />
+        </mxCell>
+        <mxCell id="1KceeCy20sGnmuJnoBR1-4" value="replicaSet: rs2" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-336.5" y="617" width="368.5" height="153" as="geometry" />
+        </mxCell>
+        <mxCell id="1KceeCy20sGnmuJnoBR1-5" value="replicaSet: rs1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-337.5" y="451" width="368.5" height="153" as="geometry" />
+        </mxCell>
+        <mxCell id="1KceeCy20sGnmuJnoBR1-6" value="mng_router1&lt;div&gt;:27017&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-499" y="574" width="85" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1KceeCy20sGnmuJnoBR1-7" value="pymongo-api&lt;div&gt;:8080&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-778" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1KceeCy20sGnmuJnoBR1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1KceeCy20sGnmuJnoBR1-7" target="1KceeCy20sGnmuJnoBR1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1KceeCy20sGnmuJnoBR1-9" value="mng_config1&lt;div&gt;:27018&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-499" y="458" width="85" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1KceeCy20sGnmuJnoBR1-10" value="mng-rs2-1&lt;div&gt;:27021&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="650" width="85" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1KceeCy20sGnmuJnoBR1-11" value="mng_rs1_1&lt;div&gt;:27011&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="511" width="85" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1KceeCy20sGnmuJnoBR1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1KceeCy20sGnmuJnoBR1-6" target="1KceeCy20sGnmuJnoBR1-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-367" y="614" />
+              <mxPoint x="-367" y="551" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1KceeCy20sGnmuJnoBR1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1KceeCy20sGnmuJnoBR1-6" target="1KceeCy20sGnmuJnoBR1-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1KceeCy20sGnmuJnoBR1-14" value="&lt;div&gt;mng_rs1_2 :27012&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-205" y="511" width="85" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1KceeCy20sGnmuJnoBR1-15" value="mng-rs2-2&lt;div&gt;:27022&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-205" y="650" width="85" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1KceeCy20sGnmuJnoBR1-16" value="mbr_id: 11" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-311" y="511" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1KceeCy20sGnmuJnoBR1-17" value="mbr_id: 12" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-192.5" y="511" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1KceeCy20sGnmuJnoBR1-18" value="m_id: 21" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-308" y="650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1KceeCy20sGnmuJnoBR1-19" value="m_id: 22" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-189.5" y="650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1KceeCy20sGnmuJnoBR1-20" value="&lt;div&gt;mng_rs1_3 :27013&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-88" y="511" width="85" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1KceeCy20sGnmuJnoBR1-21" value="mbr_id: 13" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-75.5" y="511" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1KceeCy20sGnmuJnoBR1-22" value="mng-rs2-3&lt;div&gt;:27023&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-88" y="650" width="85" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1KceeCy20sGnmuJnoBR1-23" value="m_id: 23" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-72.5" y="650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1KceeCy20sGnmuJnoBR1-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1KceeCy20sGnmuJnoBR1-6" target="1KceeCy20sGnmuJnoBR1-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MTHRV-mexhNxw14Sl0BR-1" value="Redis" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-535" y="810" width="587" height="443" as="geometry" />
+        </mxCell>
+        <mxCell id="MTHRV-mexhNxw14Sl0BR-2" value="rds1&lt;div&gt;:6379&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-284" y="945" width="85" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MTHRV-mexhNxw14Sl0BR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1KceeCy20sGnmuJnoBR1-7" target="MTHRV-mexhNxw14Sl0BR-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-579" y="835" />
+              <mxPoint x="-579" y="985" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="Ce-vUNA6qhdLI3Gr3Nph" name="4. scaling">
-    <mxGraphModel dx="1306" dy="894" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="Ce-vUNA6qhdLI3Gr3Nph" name="5. scaling">
+    <mxGraphModel dx="1306" dy="854" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rRASK9RhrA1z0AsVJhZd-1" value="&lt;h1 style=&quot;margin: var(--size-900, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 3)) 0 0; box-sizing: inherit; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-family: &amp;quot;YS Text&amp;quot;, sans-serif; color: rgba(0, 0, 0, 0.85); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Задание 5. Service Discovery и балансировка с API Gateway&lt;/h1&gt;&lt;div class=&quot;paragraph&quot; style=&quot;box-sizing: inherit; margin-top: var(--size-700, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 2)); white-space: pre-wrap; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;На данный момент у вас развёрнут только один инстанс приложения. Это может вызвать простои в случае перезапуска приложения — например, при обновлении. Также один инстанс может просто не справиться с нагрузкой. Чтобы решить эту проблему, нужно реализовать горизонтальное масштабирование приложения.&lt;/div&gt;&lt;div class=&quot;paragraph&quot; style=&quot;box-sizing: inherit; margin: var(--size-400, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 1.25)) 0 var(--size-200, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 0.75)); white-space: pre-wrap; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Если запустить несколько инстансов приложения, то непонятно, на какой из инстансов подавать трафик. Для распределения трафика используйте API Gateway.&lt;/div&gt;&lt;div class=&quot;paragraph&quot; style=&quot;box-sizing: inherit; margin: var(--size-400, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 1.25)) 0 var(--size-200, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 0.75)); white-space: pre-wrap; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Ещё нужно как-то сообщать API Gateway об изменении количества инстансов. Например, что нужно добавить новые инстансы в балансировку или, напротив, убрать оттуда удалённые инстансы. Чтобы решить эту проблему, используйте Hashicorp Consul для Service Discovery.&lt;/div&gt;&lt;h3 style=&quot;margin: var(--size-800, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 2.5)) 0 var(--size-200, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 0.75)); box-sizing: inherit; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-family: &amp;quot;YS Text&amp;quot;, sans-serif; color: rgba(0, 0, 0, 0.85); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;box-sizing: inherit;&quot;&gt;Что нужно сделать&lt;/strong&gt;&lt;/h3&gt;&lt;div class=&quot;paragraph&quot; style=&quot;box-sizing: inherit; margin-top: var(--size-200, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 0.75)); white-space: pre-wrap; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Составьте четвёртый вариант схемы. Изобразите, как вы реализуете горизонтальное масштабирование приложения. Для этого скопируйте третий вариант схемы и добавьте на него API Gateway для балансировки и Consul для Service Discovery.&lt;/div&gt;&lt;h3 style=&quot;margin: var(--size-800, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 2.5)) 0 var(--size-200, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 0.75)); box-sizing: inherit; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-family: &amp;quot;YS Text&amp;quot;, sans-serif; color: rgba(0, 0, 0, 0.85); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;box-sizing: inherit;&quot;&gt;На что будет смотреть ревьюер&lt;/strong&gt;&lt;/h3&gt;&lt;div class=&quot;paragraph&quot; style=&quot;box-sizing: inherit; margin-top: var(--size-200, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 0.75)); white-space: pre-wrap; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;На схеме нужно отобразить несколько инстансов приложения, инстансы Consul и API Gateway. Отобразите сетевое взаимодействие между ними с помощью стрелок.&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="rRASK9RhrA1z0AsVJhZd-1" value="&lt;h1 style=&quot;margin: var(--size-900, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 3)) 0 0; box-sizing: inherit; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-family: &amp;quot;YS Text&amp;quot;, sans-serif; color: rgba(0, 0, 0, 0.85); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Задание 5. Service Discovery и балансировка с API Gateway&lt;/h1&gt;&lt;div class=&quot;paragraph&quot; style=&quot;box-sizing: inherit; margin-top: var(--size-700, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 2)); white-space: pre-wrap; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;На данный момент у вас развёрнут только один инстанс приложения. Это может вызвать простои в случае перезапуска приложения — например, при обновлении. Также один инстанс может просто не справиться с нагрузкой. Чтобы решить эту проблему, нужно реализовать горизонтальное масштабирование приложения.&lt;/div&gt;&lt;div class=&quot;paragraph&quot; style=&quot;box-sizing: inherit; margin: var(--size-400, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 1.25)) 0 var(--size-200, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 0.75)); white-space: pre-wrap; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Если запустить несколько инстансов приложения, то непонятно, на какой из инстансов подавать трафик. Для распределения трафика используйте API Gateway.&lt;/div&gt;&lt;div class=&quot;paragraph&quot; style=&quot;box-sizing: inherit; margin: var(--size-400, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 1.25)) 0 var(--size-200, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 0.75)); white-space: pre-wrap; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Ещё нужно как-то сообщать API Gateway об изменении количества инстансов. Например, что нужно добавить новые инстансы в балансировку или, напротив, убрать оттуда удалённые инстансы. Чтобы решить эту проблему, используйте Hashicorp Consul для Service Discovery.&lt;/div&gt;&lt;h3 style=&quot;margin: var(--size-800, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 2.5)) 0 var(--size-200, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 0.75)); box-sizing: inherit; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-family: &amp;quot;YS Text&amp;quot;, sans-serif; color: rgba(0, 0, 0, 0.85); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;box-sizing: inherit;&quot;&gt;Что нужно сделать&lt;/strong&gt;&lt;/h3&gt;&lt;div class=&quot;paragraph&quot; style=&quot;box-sizing: inherit; margin-top: var(--size-200, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 0.75)); white-space: pre-wrap; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Составьте четвёртый вариант схемы. Изобразите, как вы реализуете горизонтальное масштабирование приложения. Для этого скопируйте третий вариант схемы и добавьте на него API Gateway для балансировки и Consul для Service Discovery.&lt;/div&gt;&lt;h3 style=&quot;margin: var(--size-800, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 2.5)) 0 var(--size-200, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 0.75)); box-sizing: inherit; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-family: &amp;quot;YS Text&amp;quot;, sans-serif; color: rgba(0, 0, 0, 0.85); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;box-sizing: inherit;&quot;&gt;На что будет смотреть ревьюер&lt;/strong&gt;&lt;/h3&gt;&lt;div class=&quot;paragraph&quot; style=&quot;box-sizing: inherit; margin-top: var(--size-200, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 0.75)); white-space: pre-wrap; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;На схеме нужно отобразить несколько инстансов приложения, инстансы Consul и API Gateway. Отобразите сетевое взаимодействие между ними с помощью стрелок.&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="80" y="150" width="620" height="810" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="Wb3iZQYP_jZVo_85hu2B" name="5. cdn">
-    <mxGraphModel dx="1306" dy="894" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="Wb3iZQYP_jZVo_85hu2B" name="6. cdn">
+    <mxGraphModel dx="1306" dy="854" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="fNxTH1zebWTBUGrvdlVs-1" value="&lt;h1 style=&quot;margin: var(--size-900, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 3)) 0 0; box-sizing: inherit; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-family: &amp;quot;YS Text&amp;quot;, sans-serif; color: rgba(0, 0, 0, 0.85); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Задание 6. CDN&lt;/h1&gt;&lt;div class=&quot;paragraph&quot; style=&quot;box-sizing: inherit; margin-top: var(--size-700, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 2)); white-space: pre-wrap; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Чтобы ускорить доставку статического контента пользователям в разных регионах, нужно использовать CDN.&lt;/div&gt;&lt;div class=&quot;paragraph&quot; style=&quot;box-sizing: inherit; margin-bottom: 0px; white-space: pre-wrap; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Составьте пятый вариант схемы, на котором вы реализуете использование CDN. Для этого скопируйте прошлый вариант схемы и добавьте на него сервис CDN в нескольких регионах.&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="fNxTH1zebWTBUGrvdlVs-1" value="&lt;h1 style=&quot;margin: var(--size-900, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 3)) 0 0; box-sizing: inherit; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-family: &amp;quot;YS Text&amp;quot;, sans-serif; color: rgba(0, 0, 0, 0.85); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Задание 6. CDN&lt;/h1&gt;&lt;div class=&quot;paragraph&quot; style=&quot;box-sizing: inherit; margin-top: var(--size-700, calc(var(--base-unit, calc(1rem * var(--base-ratio, 1))) * 2)); white-space: pre-wrap; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Чтобы ускорить доставку статического контента пользователям в разных регионах, нужно использовать CDN.&lt;/div&gt;&lt;div class=&quot;paragraph&quot; style=&quot;box-sizing: inherit; margin-bottom: 0px; white-space: pre-wrap; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Составьте пятый вариант схемы, на котором вы реализуете использование CDN. Для этого скопируйте прошлый вариант схемы и добавьте на него сервис CDN в нескольких регионах.&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="180" y="100" width="560" height="280" as="geometry" />
         </mxCell>
       </root>
