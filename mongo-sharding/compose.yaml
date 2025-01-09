@@ -1,11 +1,4 @@
 services:
-#  mongodb1:
-#    container_name: mongodb1
-#    image: dh-mirror.gitverse.ru/mongo:latest
-#    volumes:
-#      - mongodb1_data_container:/data/db
-  # name: mongo-sharding
-
   mng_shard1_1:
     container_name: mng_shard1_1
 

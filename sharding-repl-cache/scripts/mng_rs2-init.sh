@@ -12,7 +12,6 @@ rs.initiate(
         { _id : 21, host : "mng_rs2_1:27021" },
         { _id : 22, host : "mng_rs2_2:27022" },
         { _id : 23, host : "mng_rs2_3:27023" },
-
       ]
     }
 );

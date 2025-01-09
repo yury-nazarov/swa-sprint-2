@@ -49,6 +49,41 @@ chmod +x ./scripts/*
 
 Откройте в браузере http://localhost:8080
 
+Должно быть аналогично
+```json
+{
+    "mongo_topology_type": "Sharded",
+    "mongo_replicaset_name": null,
+    "mongo_db": "somedb",
+    "read_preference": "Primary()",
+    "mongo_nodes": [
+        [
+            "mng_router1",
+            27017
+        ]
+    ],
+    "mongo_primary_host": null,
+    "mongo_secondary_hosts": [],
+    "mongo_address": [
+        "mng_router1",
+        27017
+    ],
+    "mongo_is_primary": true,
+    "mongo_is_mongos": true,
+    "collections": {
+        "helloDoc": {
+            "documents_count": 1000
+        }
+    },
+    "shards": {
+        "rs1": "rs1/mng_rs1_1:27011,mng_rs1_2:27012,mng_rs1_3:27013",
+        "rs2": "rs2/mng_rs2_1:27021,mng_rs2_2:27022,mng_rs2_3:27023"
+    },
+    "cache_enabled": true,
+    "status": "OK"
+}
+```
+
 ### Если вы запускаете проект на предоставленной виртуальной машине
 
 Узнать белый ip виртуальной машины
